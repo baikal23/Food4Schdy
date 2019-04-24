@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6BAF6F1426AF8F5CA71089 /* Pods_FindMyFriendsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE6652813646DDBBB63DAD4 /* Pods_FindMyFriendsTests.framework */; };
+		804B93731BE4D0E900F031B4 /* SicmAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804B93721BE4D0E900F031B4 /* SicmAnnotationView.swift */; };
+		804B93A31BE6299E00F031B4 /* blueStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B93981BE6299E00F031B4 /* blueStar.png */; };
+		804B93A41BE6299E00F031B4 /* blackStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B93991BE6299E00F031B4 /* blackStar.png */; };
+		804B93A51BE6299E00F031B4 /* yellowRedStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B939A1BE6299E00F031B4 /* yellowRedStar.png */; };
+		804B93A61BE6299E00F031B4 /* yellowStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B939B1BE6299E00F031B4 /* yellowStar.png */; };
+		804B93A71BE6299E00F031B4 /* redStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B939C1BE6299E00F031B4 /* redStar.png */; };
+		804B93A81BE6299E00F031B4 /* purpleStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B939D1BE6299E00F031B4 /* purpleStar.png */; };
+		804B93A91BE6299E00F031B4 /* orangeStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B939E1BE6299E00F031B4 /* orangeStar.png */; };
+		804B93AA1BE6299E00F031B4 /* greenStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B939F1BE6299E00F031B4 /* greenStar.png */; };
+		804B93AB1BE6299E00F031B4 /* cyanStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B93A01BE6299E00F031B4 /* cyanStar.png */; };
+		804B93AC1BE6299E00F031B4 /* brownStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B93A11BE6299E00F031B4 /* brownStar.png */; };
+		804B93AD1BE6299E00F031B4 /* magentaStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 804B93A21BE6299E00F031B4 /* magentaStar.png */; };
+		804C83A61A71C2AA009C0B4F /* Filehelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804C83A51A71C2AA009C0B4F /* Filehelpers.swift */; };
+		80648EE71C493F7C008ADB6D /* launch2.png in Resources */ = {isa = PBXBuildFile; fileRef = 80648EE61C493F7C008ADB6D /* launch2.png */; };
+		80648EEA1C4940DD008ADB6D /* Introduction_files in Resources */ = {isa = PBXBuildFile; fileRef = 80648EE81C4940DC008ADB6D /* Introduction_files */; };
+		80648EEB1C4940DD008ADB6D /* Introduction.htm in Resources */ = {isa = PBXBuildFile; fileRef = 80648EE91C4940DD008ADB6D /* Introduction.htm */; };
+		80B66DA11A5F07C90018B8E8 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B66DA01A5F07C90018B8E8 /* LocationModel.swift */; };
+		80B777B71D08DCF400643CFE /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B777B61D08DCF400643CFE /* Images-2.xcassets */; };
+		80B7E5581F27AE020030F26F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B7E5571F27AE020030F26F /* SwiftyJSON.framework */; };
+		80B7E55A1F27C29B0030F26F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B7E5591F27C29B0030F26F /* Person.swift */; };
+		80D480091AA9ED4900291BAD /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D480081AA9ED4900291BAD /* InfoTableViewController.swift */; };
+		80D4800B1AA9ED6100291BAD /* InfoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D4800A1AA9ED6100291BAD /* InfoMessage.swift */; };
+		80D4800D1AA9ED7B00291BAD /* InfoMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D4800C1AA9ED7B00291BAD /* InfoMessageViewController.swift */; };
+		80D4800F1AA9EDB900291BAD /* InfoMessage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80D4800E1AA9EDB900291BAD /* InfoMessage.plist */; };
+		80EFFE221A8FEDF000055688 /* ContactGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFFE211A8FEDF000055688 /* ContactGroup.swift */; };
+		80F0C9281C18F0C800EC532D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F0C9271C18F0C800EC532D /* Images.xcassets */; };
+		80F69CDC1BE17DAD00F6EA52 /* FoodSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F69CDB1BE17DAD00F6EA52 /* FoodSource.swift */; };
+		80FEF4551A521A0200482C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEF4541A521A0200482C12 /* AppDelegate.swift */; };
+		80FEF4571A521A0200482C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEF4561A521A0200482C12 /* ViewController.swift */; };
+		80FEF45A1A521A0300482C12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80FEF4581A521A0300482C12 /* Main.storyboard */; };
+		80FEF45F1A521A0300482C12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80FEF45D1A521A0300482C12 /* LaunchScreen.xib */; };
+		80FEF46B1A521A0300482C12 /* FindMyFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEF46A1A521A0300482C12 /* FindMyFriendsTests.swift */; };
+		80FEF4771A521ADC00482C12 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FEF4761A521ADC00482C12 /* GeoLocation.swift */; };
+		B322C1D649D924EE2E8DF2A1 /* Pods_FindMyFriends.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257093D7CB4CC33500CC55C7 /* Pods_FindMyFriends.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80FEF4651A521A0300482C12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80FEF4471A521A0200482C12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80FEF44E1A521A0200482C12;
+			remoteInfo = FindMyFriends;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B36A494B1D9511F45EB6336 /* Pods-FindMyFriends.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFriends.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFriends/Pods-FindMyFriends.debug.xcconfig"; sourceTree = "<group>"; };
+		257093D7CB4CC33500CC55C7 /* Pods_FindMyFriends.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyFriends.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B08E2A840F1DD276A7BBB27 /* Pods-FindMyFriendsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFriendsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFriendsTests/Pods-FindMyFriendsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A8AF7AF11F09CF58FC95A68 /* Pods-FindMyFriendsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFriendsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFriendsTests/Pods-FindMyFriendsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		804B93721BE4D0E900F031B4 /* SicmAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SicmAnnotationView.swift; sourceTree = "<group>"; };
+		804B93981BE6299E00F031B4 /* blueStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueStar.png; sourceTree = "<group>"; };
+		804B93991BE6299E00F031B4 /* blackStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackStar.png; sourceTree = "<group>"; };
+		804B939A1BE6299E00F031B4 /* yellowRedStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowRedStar.png; sourceTree = "<group>"; };
+		804B939B1BE6299E00F031B4 /* yellowStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowStar.png; sourceTree = "<group>"; };
+		804B939C1BE6299E00F031B4 /* redStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redStar.png; sourceTree = "<group>"; };
+		804B939D1BE6299E00F031B4 /* purpleStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleStar.png; sourceTree = "<group>"; };
+		804B939E1BE6299E00F031B4 /* orangeStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeStar.png; sourceTree = "<group>"; };
+		804B939F1BE6299E00F031B4 /* greenStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenStar.png; sourceTree = "<group>"; };
+		804B93A01BE6299E00F031B4 /* cyanStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cyanStar.png; sourceTree = "<group>"; };
+		804B93A11BE6299E00F031B4 /* brownStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brownStar.png; sourceTree = "<group>"; };
+		804B93A21BE6299E00F031B4 /* magentaStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magentaStar.png; sourceTree = "<group>"; };
+		804C83A51A71C2AA009C0B4F /* Filehelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Filehelpers.swift; path = ../Filehelpers.swift; sourceTree = "<group>"; };
+		80648EE61C493F7C008ADB6D /* launch2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch2.png; sourceTree = "<group>"; };
+		80648EE81C4940DC008ADB6D /* Introduction_files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Introduction_files; sourceTree = "<group>"; };
+		80648EE91C4940DD008ADB6D /* Introduction.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Introduction.htm; sourceTree = "<group>"; };
+		80B66DA01A5F07C90018B8E8 /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		80B777B61D08DCF400643CFE /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		80B7E5571F27AE020030F26F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Users/sue/Library/Developer/Xcode/DerivedData/Food_4_Schdy-ggrfccuskdjqoffytrjscjxkthcp/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		80B7E5591F27C29B0030F26F /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		80D480081AA9ED4900291BAD /* InfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
+		80D4800A1AA9ED6100291BAD /* InfoMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMessage.swift; sourceTree = "<group>"; };
+		80D4800C1AA9ED7B00291BAD /* InfoMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoMessageViewController.swift; sourceTree = "<group>"; };
+		80D4800E1AA9EDB900291BAD /* InfoMessage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InfoMessage.plist; sourceTree = "<group>"; };
+		80EFFE211A8FEDF000055688 /* ContactGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactGroup.swift; sourceTree = "<group>"; };
+		80F0C9271C18F0C800EC532D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80F69CDB1BE17DAD00F6EA52 /* FoodSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodSource.swift; path = ../FoodSource.swift; sourceTree = "<group>"; };
+		80FEF44F1A521A0200482C12 /* Food 4 Schdys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food 4 Schdys.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FEF4531A521A0200482C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FEF4541A521A0200482C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80FEF4561A521A0200482C12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80FEF4591A521A0300482C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80FEF45E1A521A0300482C12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80FEF4641A521A0300482C12 /* Food 4 Schdys.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food 4 Schdys.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80FEF4691A521A0300482C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80FEF46A1A521A0300482C12 /* FindMyFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyFriendsTests.swift; sourceTree = "<group>"; };
+		80FEF4761A521ADC00482C12 /* GeoLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		AFE6652813646DDBBB63DAD4 /* Pods_FindMyFriendsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyFriendsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4BDB55A7F7D5E38B71D30CF /* Pods-FindMyFriends.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyFriends.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindMyFriends/Pods-FindMyFriends.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80FEF44C1A521A0200482C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B7E5581F27AE020030F26F /* SwiftyJSON.framework in Frameworks */,
+				B322C1D649D924EE2E8DF2A1 /* Pods_FindMyFriends.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEF4611A521A0300482C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6BAF6F1426AF8F5CA71089 /* Pods_FindMyFriendsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E3E469378431ABBA31A37B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B36A494B1D9511F45EB6336 /* Pods-FindMyFriends.debug.xcconfig */,
+				D4BDB55A7F7D5E38B71D30CF /* Pods-FindMyFriends.release.xcconfig */,
+				6A8AF7AF11F09CF58FC95A68 /* Pods-FindMyFriendsTests.debug.xcconfig */,
+				2B08E2A840F1DD276A7BBB27 /* Pods-FindMyFriendsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8043EFDC1AAB900C00196FC7 /* InfoMessage */ = {
+			isa = PBXGroup;
+			children = (
+				80D480081AA9ED4900291BAD /* InfoTableViewController.swift */,
+				80D4800A1AA9ED6100291BAD /* InfoMessage.swift */,
+				80D4800C1AA9ED7B00291BAD /* InfoMessageViewController.swift */,
+				80D4800E1AA9EDB900291BAD /* InfoMessage.plist */,
+			);
+			name = InfoMessage;
+			sourceTree = "<group>";
+		};
+		80FEF4461A521A0200482C12 = {
+			isa = PBXGroup;
+			children = (
+				80FEF4511A521A0200482C12 /* FindMyFriends */,
+				80FEF4671A521A0300482C12 /* FindMyFriendsTests */,
+				80FEF4501A521A0200482C12 /* Products */,
+				2E3E469378431ABBA31A37B6 /* Pods */,
+				9042690BC479D8652E9B2174 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80FEF4501A521A0200482C12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80FEF44F1A521A0200482C12 /* Food 4 Schdys.app */,
+				80FEF4641A521A0300482C12 /* Food 4 Schdys.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80FEF4511A521A0200482C12 /* FindMyFriends */ = {
+			isa = PBXGroup;
+			children = (
+				80FEF4541A521A0200482C12 /* AppDelegate.swift */,
+				80B7E5591F27C29B0030F26F /* Person.swift */,
+				8043EFDC1AAB900C00196FC7 /* InfoMessage */,
+				80FEF4581A521A0300482C12 /* Main.storyboard */,
+				80EFFE211A8FEDF000055688 /* ContactGroup.swift */,
+				804C83A51A71C2AA009C0B4F /* Filehelpers.swift */,
+				80F69CDB1BE17DAD00F6EA52 /* FoodSource.swift */,
+				80FEF4761A521ADC00482C12 /* GeoLocation.swift */,
+				80B66DA01A5F07C90018B8E8 /* LocationModel.swift */,
+				804B93721BE4D0E900F031B4 /* SicmAnnotationView.swift */,
+				80FEF4561A521A0200482C12 /* ViewController.swift */,
+				804B93981BE6299E00F031B4 /* blueStar.png */,
+				804B93991BE6299E00F031B4 /* blackStar.png */,
+				804B939A1BE6299E00F031B4 /* yellowRedStar.png */,
+				804B939B1BE6299E00F031B4 /* yellowStar.png */,
+				804B939C1BE6299E00F031B4 /* redStar.png */,
+				804B939D1BE6299E00F031B4 /* purpleStar.png */,
+				804B939E1BE6299E00F031B4 /* orangeStar.png */,
+				804B939F1BE6299E00F031B4 /* greenStar.png */,
+				804B93A01BE6299E00F031B4 /* cyanStar.png */,
+				804B93A11BE6299E00F031B4 /* brownStar.png */,
+				804B93A21BE6299E00F031B4 /* magentaStar.png */,
+				80FEF45D1A521A0300482C12 /* LaunchScreen.xib */,
+				80648EE61C493F7C008ADB6D /* launch2.png */,
+				80648EE81C4940DC008ADB6D /* Introduction_files */,
+				80648EE91C4940DD008ADB6D /* Introduction.htm */,
+				80B777B61D08DCF400643CFE /* Images-2.xcassets */,
+				80F0C9271C18F0C800EC532D /* Images.xcassets */,
+				80FEF4521A521A0200482C12 /* Supporting Files */,
+			);
+			path = FindMyFriends;
+			sourceTree = "<group>";
+		};
+		80FEF4521A521A0200482C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FEF4531A521A0200482C12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80FEF4671A521A0300482C12 /* FindMyFriendsTests */ = {
+			isa = PBXGroup;
+			children = (
+				80FEF46A1A521A0300482C12 /* FindMyFriendsTests.swift */,
+				80FEF4681A521A0300482C12 /* Supporting Files */,
+			);
+			path = FindMyFriendsTests;
+			sourceTree = "<group>";
+		};
+		80FEF4681A521A0300482C12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80FEF4691A521A0300482C12 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9042690BC479D8652E9B2174 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B7E5571F27AE020030F26F /* SwiftyJSON.framework */,
+				257093D7CB4CC33500CC55C7 /* Pods_FindMyFriends.framework */,
+				AFE6652813646DDBBB63DAD4 /* Pods_FindMyFriendsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80FEF44E1A521A0200482C12 /* FindMyFriends */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FEF46E1A521A0300482C12 /* Build configuration list for PBXNativeTarget "FindMyFriends" */;
+			buildPhases = (
+				4E45CEE5B23E5099215B7BEB /* [CP] Check Pods Manifest.lock */,
+				80FEF44B1A521A0200482C12 /* Sources */,
+				80FEF44C1A521A0200482C12 /* Frameworks */,
+				80FEF44D1A521A0200482C12 /* Resources */,
+				CAA917EEC2ADE5A5BFA8000B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyFriends;
+			productName = FindMyFriends;
+			productReference = 80FEF44F1A521A0200482C12 /* Food 4 Schdys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80FEF4631A521A0300482C12 /* FindMyFriendsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80FEF4711A521A0300482C12 /* Build configuration list for PBXNativeTarget "FindMyFriendsTests" */;
+			buildPhases = (
+				101C91C07591C9A05871D579 /* [CP] Check Pods Manifest.lock */,
+				80FEF4601A521A0300482C12 /* Sources */,
+				80FEF4611A521A0300482C12 /* Frameworks */,
+				80FEF4621A521A0300482C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80FEF4661A521A0300482C12 /* PBXTargetDependency */,
+			);
+			name = FindMyFriendsTests;
+			productName = FindMyFriendsTests;
+			productReference = 80FEF4641A521A0300482C12 /* Food 4 Schdys.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80FEF4471A521A0200482C12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Susan Kohler";
+				TargetAttributes = {
+					80FEF44E1A521A0200482C12 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = GW4E92HSRQ;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					80FEF4631A521A0300482C12 = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = NMRN539784;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 80FEF44E1A521A0200482C12;
+					};
+				};
+			};
+			buildConfigurationList = 80FEF44A1A521A0200482C12 /* Build configuration list for PBXProject "Food 4 Schdy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80FEF4461A521A0200482C12;
+			productRefGroup = 80FEF4501A521A0200482C12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80FEF44E1A521A0200482C12 /* FindMyFriends */,
+				80FEF4631A521A0300482C12 /* FindMyFriendsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80FEF44D1A521A0200482C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804B93A51BE6299E00F031B4 /* yellowRedStar.png in Resources */,
+				804B93A91BE6299E00F031B4 /* orangeStar.png in Resources */,
+				804B93A71BE6299E00F031B4 /* redStar.png in Resources */,
+				804B93AA1BE6299E00F031B4 /* greenStar.png in Resources */,
+				804B93A31BE6299E00F031B4 /* blueStar.png in Resources */,
+				804B93AB1BE6299E00F031B4 /* cyanStar.png in Resources */,
+				80F0C9281C18F0C800EC532D /* Images.xcassets in Resources */,
+				804B93AC1BE6299E00F031B4 /* brownStar.png in Resources */,
+				80648EEB1C4940DD008ADB6D /* Introduction.htm in Resources */,
+				80B777B71D08DCF400643CFE /* Images-2.xcassets in Resources */,
+				80648EE71C493F7C008ADB6D /* launch2.png in Resources */,
+				804B93A41BE6299E00F031B4 /* blackStar.png in Resources */,
+				80D4800F1AA9EDB900291BAD /* InfoMessage.plist in Resources */,
+				80FEF45A1A521A0300482C12 /* Main.storyboard in Resources */,
+				80648EEA1C4940DD008ADB6D /* Introduction_files in Resources */,
+				804B93AD1BE6299E00F031B4 /* magentaStar.png in Resources */,
+				80FEF45F1A521A0300482C12 /* LaunchScreen.xib in Resources */,
+				804B93A61BE6299E00F031B4 /* yellowStar.png in Resources */,
+				804B93A81BE6299E00F031B4 /* purpleStar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEF4621A521A0300482C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		101C91C07591C9A05871D579 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyFriendsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E45CEE5B23E5099215B7BEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyFriends-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAA917EEC2ADE5A5BFA8000B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindMyFriends/Pods-FindMyFriends-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindMyFriends/Pods-FindMyFriends-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80FEF44B1A521A0200482C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80B66DA11A5F07C90018B8E8 /* LocationModel.swift in Sources */,
+				804B93731BE4D0E900F031B4 /* SicmAnnotationView.swift in Sources */,
+				80D480091AA9ED4900291BAD /* InfoTableViewController.swift in Sources */,
+				80FEF4771A521ADC00482C12 /* GeoLocation.swift in Sources */,
+				80F69CDC1BE17DAD00F6EA52 /* FoodSource.swift in Sources */,
+				80EFFE221A8FEDF000055688 /* ContactGroup.swift in Sources */,
+				80B7E55A1F27C29B0030F26F /* Person.swift in Sources */,
+				80FEF4571A521A0200482C12 /* ViewController.swift in Sources */,
+				80D4800B1AA9ED6100291BAD /* InfoMessage.swift in Sources */,
+				80FEF4551A521A0200482C12 /* AppDelegate.swift in Sources */,
+				80D4800D1AA9ED7B00291BAD /* InfoMessageViewController.swift in Sources */,
+				804C83A61A71C2AA009C0B4F /* Filehelpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80FEF4601A521A0300482C12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80FEF46B1A521A0300482C12 /* FindMyFriendsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80FEF4661A521A0300482C12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80FEF44E1A521A0200482C12 /* FindMyFriends */;
+			targetProxy = 80FEF4651A521A0300482C12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80FEF4581A521A0300482C12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FEF4591A521A0300482C12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80FEF45D1A521A0300482C12 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80FEF45E1A521A0300482C12 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80FEF46C1A521A0300482C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c49846d1-e8b8-4f13-a73f-4176ba9aacc5";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80FEF46D1A521A0300482C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "c49846d1-e8b8-4f13-a73f-4176ba9aacc5";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80FEF46F1A521A0300482C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B36A494B1D9511F45EB6336 /* Pods-FindMyFriends.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FindMyFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apps-By-George.Food-4-Schdys";
+				PRODUCT_NAME = "Food 4 Schdys";
+				PROVISIONING_PROFILE = "c49846d1-e8b8-4f13-a73f-4176ba9aacc5";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		80FEF4701A521A0300482C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4BDB55A7F7D5E38B71D30CF /* Pods-FindMyFriends.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FindMyFriends/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apps-By-George.Food-4-Schdys";
+				PRODUCT_NAME = "Food 4 Schdys";
+				PROVISIONING_PROFILE = "c49846d1-e8b8-4f13-a73f-4176ba9aacc5";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80FEF4721A521A0300482C12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8AF7AF11F09CF58FC95A68 /* Pods-FindMyFriendsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NMRN539784;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindMyFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apps-By-George.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Food 4 Schdys";
+				PROVISIONING_PROFILE = "c49846d1-e8b8-4f13-a73f-4176ba9aacc5";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food 4 Schdys.app/Food 4 Schdys";
+			};
+			name = Debug;
+		};
+		80FEF4731A521A0300482C12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B08E2A840F1DD276A7BBB27 /* Pods-FindMyFriendsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NMRN539784;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindMyFriendsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Apps-By-George.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Food 4 Schdys";
+				PROVISIONING_PROFILE = "c49846d1-e8b8-4f13-a73f-4176ba9aacc5";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food 4 Schdys.app/Food 4 Schdys";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80FEF44A1A521A0200482C12 /* Build configuration list for PBXProject "Food 4 Schdy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FEF46C1A521A0300482C12 /* Debug */,
+				80FEF46D1A521A0300482C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FEF46E1A521A0300482C12 /* Build configuration list for PBXNativeTarget "FindMyFriends" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FEF46F1A521A0300482C12 /* Debug */,
+				80FEF4701A521A0300482C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80FEF4711A521A0300482C12 /* Build configuration list for PBXNativeTarget "FindMyFriendsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80FEF4721A521A0300482C12 /* Debug */,
+				80FEF4731A521A0300482C12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80FEF4471A521A0200482C12 /* Project object */;
+}

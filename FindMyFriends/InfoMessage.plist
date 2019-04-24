@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Intro</key>
+	<dict>
+		<key>rank</key>
+		<integer>0</integer>
+		<key>name</key>
+		<string>Introduction</string>
+		<key>message</key>
+		<string>Food 4 Schdy uses the sicmfood.com database to show various types of food resources in the greater Schenectady area.  This app was developed by Schenectady Inner City Mission with a Partners in Community Health grant from the Centers for Disease Control through the Schenectady County Department of Health and Alliance for Health   </string>
+	</dict>
+	<key>Search</key>
+	<dict>
+		<key>rank</key>
+		<integer>1</integer>
+		<key>name</key>
+		<string>Search Instructions</string>
+		<key>message</key>
+		<string>Choose one or several of the available resource categories.  To deselect a category, just tap again.  Icons will pop up on the map showing the locations of the resources.  Tap an icon to see the resource name, and then tap the name for more detailed information.  You can also search for a specific resource by pressing the &quot;?&quot; button.</string>
+	</dict>
+	<key>Contact Us</key>
+	<dict>
+		<key>rank</key>
+		<integer>4</integer>
+		<key>name</key>
+		<string>Contact Us</string>
+		<key>message</key>
+		<string>Visit our web site at Apps-by-george.com or email us at info@apps-by-george.com.  The sicm web site is www.sicm.us and the web-based food resource map is at sicmfood.com</string>
+	</dict>
+	<key>Update the Sites</key>
+	<dict>
+		<key>rank</key>
+		<integer>5</integer>
+		<key>name</key>
+		<string>Update the Sites</string>
+		<key>message</key>
+		<string>To provide updated site information (i.e. food pantry hours) send email to: foodupdates@sicm.us</string>
+	</dict>
+</dict>
+</plist>
