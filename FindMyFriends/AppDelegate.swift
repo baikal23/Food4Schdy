@@ -77,7 +77,7 @@
 // trying to get it to work in Swift3 - data not getting saved (or read back) tried using UserDefaults  - didn't help - but "Person" test works
 // got it working - problem was with encoding Doubles -
 // updated the website - Aug 2018
-// making git repo April 2019
+// making git repo April 2019 - and it is Swift5
 
 import UIKit
 
